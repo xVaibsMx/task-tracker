@@ -1,5 +1,11 @@
+import Landing from './routes/Landing'
+
 const App = () => {
-  return <div className=" text-center text-7xl">App</div>
+  return (
+    <main>
+      <Landing />
+    </main>
+  )
 }
 
 export default App
